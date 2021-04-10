@@ -6,3 +6,6 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
 
     1. Variabel
     2. Data Type
+    3. Operators
+    4. IF Statement
+    5. Switch Case
