@@ -61,8 +61,27 @@ const myName = "danil";
 console.log(`Hello, my name is ${myName}`);
 
 // boolean
-let x = true;
-let y = false;
+let x1 = true;
+let y1 = false;
 
-console.log(typeof x);
-console.log(typeof y);
+console.log(typeof x1);
+console.log(typeof y1);
+
+const i = 10;
+const j = 12;
+
+let isGreater = i > j;
+let isLess = i < j;
+
+console.log(isGreater);
+console.log(isLess);
+
+// null
+let someLaterData = null;
+console.log(someLaterData);
+
+// symbol
+const id = Symbol("id");
+const id1 = Symbol("id");
+console.log(id);
+console.log(id == id1); //false
