@@ -54,3 +54,10 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
 ### Functional Programming
 
     Paradigma Functional Programming adalah paradigma pemrograman di mana proses komputasi didasarkan pada fungsi matematika murni. Functional Programming (selanjutnya akan kita singkat menjadi FP) ditulis dengan gaya deklaratif yang berfokus pada “what to solve” dibanding “how to solve” yang dianut oleh gaya imperatif.
+
+    3 konsep besar yang ada di FP. Yakni Pure Function, Immutability, dan High-Order Function.
+
+    1. Pure Function
+    2. Immutability
+    3. Higher-Order Function
+    4. Reusable Function
