@@ -82,3 +82,6 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     2. Multiple export value in node js
     3. ES6 Module 
         3.1 Tambahkan properti 'type' dengan nilai 'module' pada berkas package.json : "type": "module",
+
+
+### H. Error Handling
