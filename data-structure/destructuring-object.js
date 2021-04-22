@@ -5,19 +5,19 @@ const profile = {
 };
 
 // nama variabel harus sama dengan nama properti
-// const { firstName, lastName, age } = profile;
-// console.log(firstName, lastName, age);
+const { firstName, lastName, age } = profile;
+console.log(firstName, lastName, age);
+// 
+const { lastName } = profile;
+console.log(lastName);
 
-// const { lastName } = profile;
-// console.log(lastName);
-
-// let firstName = "haykal";
-// let age = 2.5;
+let firstName = "haykal";
+let age = 2.5;
 
 // menginisialisasi nilai baru melalui object destruction
-// ({ firstName, age } = profile);
+({ firstName, age } = profile);
 
-// console.log(firstName, age);
+console.log(firstName, age);
 
 // default value
 const { firstName, age, isMale = true } = profile;

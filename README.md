@@ -51,7 +51,7 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     6. Object Composition
     7. Build In Class
 
-### Functional Programming
+### E. Functional Programming
 
     Paradigma Functional Programming adalah paradigma pemrograman di mana proses komputasi didasarkan pada fungsi matematika murni. Functional Programming (selanjutnya akan kita singkat menjadi FP) ditulis dengan gaya deklaratif yang berfokus pada “what to solve” dibanding “how to solve” yang dianut oleh gaya imperatif.
 
@@ -62,7 +62,7 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     3. Higher-Order Function
     4. Reusable Function
 
-### Setup Environment Node Js
+### F. Setup Environment Node Js
 
 1.   Create Project
 
@@ -72,4 +72,13 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
      1.4 Selanjutnya akan muncul beberapa pertanyaan untuk mengisi nilai package.
      1.5 jika berhasil maka akan muncul sebuah file baru bernama 'package.json'
 
-2.
+2. Menjalankan Project Node Js
+    2.1 Buka File package.json
+    2.2 Pada Object scripts tambahkan nilai baru bernama "start": "node index.js" di bawah  nilai 'test'
+    2.3 untuk menjalankan program jalan perintah 'npm run start' pada terminal
+
+### G. Module
+    1. Export dan Import
+    2. Multiple export value in node js
+    3. ES6 Module 
+        3.1 Tambahkan properti 'type' dengan nilai 'module' pada berkas package.json : "type": "module",
