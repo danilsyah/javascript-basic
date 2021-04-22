@@ -61,3 +61,15 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     2. Immutability
     3. Higher-Order Function
     4. Reusable Function
+
+### Setup Environment Node Js
+
+1.   Create Project
+
+     1.1 Buat sebuah directory (folder) project app
+     1.2 Open directory yang sudah dibuat di editor kesayangan
+     1.3 Open Terminal dan ketikan : 'npm init'
+     1.4 Selanjutnya akan muncul beberapa pertanyaan untuk mengisi nilai package.
+     1.5 jika berhasil maka akan muncul sebuah file baru bernama 'package.json'
+
+2.
