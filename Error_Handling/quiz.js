@@ -92,3 +92,16 @@ console.log(detectTriangle(12, 2, null));
 console.log(detectTriangle(1, 1, 1));
 console.log(detectTriangle(1, 1, 3));
 console.log(detectTriangle(1, 3, 2));
+
+class MyCustomError extends Error {
+     constructor(message) {
+          super(message);
+          this.name = "MyError";
+     }
+}
+
+try {
+     throw new MyCustomError("This is an error");
+} catch (e) {
+     console.log(e.message);
+}

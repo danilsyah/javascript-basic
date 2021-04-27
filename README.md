@@ -72,16 +72,36 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
      1.4 Selanjutnya akan muncul beberapa pertanyaan untuk mengisi nilai package.
      1.5 jika berhasil maka akan muncul sebuah file baru bernama 'package.json'
 
-2. Menjalankan Project Node Js
-    2.1 Buka File package.json
-    2.2 Pada Object scripts tambahkan nilai baru bernama "start": "node index.js" di bawah  nilai 'test'
-    2.3 untuk menjalankan program jalan perintah 'npm run start' pada terminal
+2.   Menjalankan Project Node Js
+     2.1 Buka File package.json
+     2.2 Pada Object scripts tambahkan nilai baru bernama "start": "node index.js" di bawah nilai 'test'
+     2.3 untuk menjalankan program jalan perintah 'npm run start' pada terminal
 
 ### G. Module
+
     1. Export dan Import
     2. Multiple export value in node js
-    3. ES6 Module 
+    3. ES6 Module
         3.1 Tambahkan properti 'type' dengan nilai 'module' pada berkas package.json : "type": "module",
 
-
 ### H. Error Handling
+
+    1. try_catch
+    2. throwing errors
+    3. custom error
+
+### I. Concurrency
+
+    Concurrency sendiri berarti beberapa komputasi yang terjadi pada saat yang bersamaan
+
+    1. Synchronous vs Asynchronous
+    2. setTimeout
+    3. Callback Function
+    4. Promise
+    5. Constructing Promise Object
+    6. Consuming Promises
+    7. onRejected with Catch Method
+    8. Chaining Promises
+    9. Promise All
+    10. Async-await
+    11. Quiz
