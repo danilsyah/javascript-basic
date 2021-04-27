@@ -105,3 +105,42 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     9. Promise All
     10. Async-await
     11. Quiz
+
+### J. Node Package Manager
+    
+    1. npm help
+    2. npm install -h (melihat detail penggunaan perintah intall)
+    3. init (Membuat berkas package.json pada project)
+    4. install <package-name> (Memasang dan mendaftarkan package pada berkas package.json)
+    5. run-script <command> (Menjalankan perintah yang terdapat pada objek scripts di berkas package.json)
+    6. uninstall <package-name> (Menghapus dan mengeluarkan package dari berkas package.json)
+    7. version (Untuk melihat versi package yang tersedia secara global atau lokal)
+
+### K. Testing
+
+    1. Static test
+    Memastikan tidak adanya typo (naming convention yang standar) dan memastikan tidak ada error types.
+    
+    2. Unit test
+    Dilakukan untuk memastikan bahwa setiap unit kode yang kita tulis sudah bisa bekerja sesuai harapan. Unit sendiri berarti komponen terkecil yang dapat diuji secara terisolasi dalam perangkat lunak yang kita buat, dapat berupa fungsi bahkan kelas jika kita menggunakan paradigma OOP. Proses ini juga dapat diautomasikan.
+    
+    3. Integration test
+    Memastikan beberapa serangkaian fungsi yang saling ketergantungan satu sama lain berjalan semestinya. Proses pengujian ini dapat dilakukan secara diautomasikan dengan menuliskan script test.
+    
+    4. End-to-End test
+    Proses pengujian sebuah aplikasi untuk menguji flow dari awal hingga akhir, layaknya seorang user saat menggunakan aplikasi. Memastikan bahwasanya aplikasi berfungsi selayaknya. Biasanya proses ini dapat dilakukan secara otomatis maupun manual oleh tester.
+
+    Ketika kita menulis sebuah kasus pengujian (test case), maka ada beberapa poin yang harus kita definisikan terlebih dahulu:
+
+    1. Apa yang ingin diuji?
+    Misalkan: Melakukan uji pada fungsi menghitung rata-rata nilai siswa, atau dapat juga melakukan pengujian pada proses registrasi akun, dan lain sebagainya.
+
+    2. Ekspektasi apa yang diharapkan?
+    Untuk kasus menghitung nilai rata-rata:
+        2.1 Menghasilkan output perhitungan yang sesuai berdasarkan input yang diberikan.
+        2.2 Input harus berupa angka.
+    
+    3. Untuk kasus proses registrasi akun
+        3.1 Pengguna dapat melakukan registrasi secara normal.
+        3.2 Pengguna dengan email sama tidak dapat melakukan registrasi.
+        3.3 dan lain sebagainya.
