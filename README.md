@@ -1,6 +1,6 @@
 # javascript-basic
 
-Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding https://www.dicoding.com/academies/256
+Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding <https://www.dicoding.com/academies/256>
 
 ## Daftar Materi Course
 
@@ -107,7 +107,7 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     11. Quiz
 
 ### J. Node Package Manager
-    
+
     1. npm help
     2. npm install -h (melihat detail penggunaan perintah intall)
     3. init (Membuat berkas package.json pada project)
@@ -120,13 +120,13 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
 
     1. Static test
     Memastikan tidak adanya typo (naming convention yang standar) dan memastikan tidak ada error types.
-    
+
     2. Unit test
     Dilakukan untuk memastikan bahwa setiap unit kode yang kita tulis sudah bisa bekerja sesuai harapan. Unit sendiri berarti komponen terkecil yang dapat diuji secara terisolasi dalam perangkat lunak yang kita buat, dapat berupa fungsi bahkan kelas jika kita menggunakan paradigma OOP. Proses ini juga dapat diautomasikan.
-    
+
     3. Integration test
     Memastikan beberapa serangkaian fungsi yang saling ketergantungan satu sama lain berjalan semestinya. Proses pengujian ini dapat dilakukan secara diautomasikan dengan menuliskan script test.
-    
+
     4. End-to-End test
     Proses pengujian sebuah aplikasi untuk menguji flow dari awal hingga akhir, layaknya seorang user saat menggunakan aplikasi. Memastikan bahwasanya aplikasi berfungsi selayaknya. Biasanya proses ini dapat dilakukan secara otomatis maupun manual oleh tester.
 
@@ -139,7 +139,7 @@ Belajar Bahasa Pemrograman JavaScript Materi Fundamental lewat course dicoding h
     Untuk kasus menghitung nilai rata-rata:
         2.1 Menghasilkan output perhitungan yang sesuai berdasarkan input yang diberikan.
         2.2 Input harus berupa angka.
-    
+
     3. Untuk kasus proses registrasi akun
         3.1 Pengguna dapat melakukan registrasi secara normal.
         3.2 Pengguna dengan email sama tidak dapat melakukan registrasi.
